@@ -28,7 +28,7 @@ class HeroRepository {
   }
 }
 
-module.export = HeroRepository
+module.exports = HeroRepository
 
 // tests
 const heroRepository = new HeroRepository({ file: './../../database/data.json' })
