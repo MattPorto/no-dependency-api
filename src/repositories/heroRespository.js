@@ -29,8 +29,3 @@ class HeroRepository {
 }
 
 module.exports = HeroRepository
-
-// tests
-const heroRepository = new HeroRepository({ file: './../../database/data.json' })
-// heroRepository.find(1).then(console.log).catch(error => console.log('error', error))
-// heroRepository.create({ id: 2, name: 'Chapolin' }).then(console.log).catch(error => console.log('error', error))
